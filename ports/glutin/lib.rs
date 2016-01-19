@@ -16,7 +16,7 @@ extern crate glutin;
 extern crate layers;
 extern crate msg;
 extern crate net_traits;
-#[cfg(feature = "window")] extern crate script_traits;
+extern crate script_traits;
 extern crate url;
 extern crate util;
 #[cfg(target_os = "linux")] extern crate x11;
